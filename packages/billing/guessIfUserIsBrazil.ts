@@ -1,5 +1,3 @@
-// packages/billing/guessIfUserIsBrazil.ts
-
 const brazilianUnionCountryCodes = ['BR'];
 const brazilianUnionExclusiveLanguageCodes = ['pt'];
 
