@@ -2,8 +2,8 @@ import { Plan } from '@typebot.io/prisma'
 import type { Stripe } from 'stripe'
 
 export const prices = {
-  [Plan.STARTER]: 39,
-  [Plan.PRO]: 89,
+  [Plan.STARTER]: 49,
+  [Plan.PRO]: 99,
 } as const
 
 export const chatsLimits = {
@@ -162,6 +162,6 @@ export const proChatTiers = [
   },
   {
     up_to: 'inf',
-    unit_amount_decimal: '0.442',
+    unit_amount_decimal: '0.500',
   },
 ] satisfies Stripe.PriceCreateParams.Tier[]
